@@ -32,6 +32,10 @@ namespace FluentPivotApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            // Stops Pointer mode from activating by default on Xbox.
+            // Please don't remove this unless you know what you are doing.
+            RequiresPointerMode = ApplicationRequiresPointerMode.WhenRequested;
         }
 
         /// <summary>
