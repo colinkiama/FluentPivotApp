@@ -331,8 +331,9 @@
                                         <controls:DropShadowPanel Grid.Row="1" Grid.ColumnSpan="3"
                                                                   HorizontalContentAlignment="Stretch"
                                                                   VerticalContentAlignment="Stretch"
-                                                                  ShadowOpacity="0.2"
-                                                                  BlurRadius="15"
+                                                                  ShadowOpacity="0.3"
+                                                                  BlurRadius="20"
+                                                                  OffsetY="1"
                                                                   Background="Gray">
                                             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
                                                 <ItemsPresenter x:Name="PivotItemPresenter" >
@@ -497,8 +498,8 @@
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                     <VisualState.Setters>
-                                        <Setter Target="FocusPipe.Visibility"
-                                                                Value="Visible" />
+                                        <!--<Setter Target="FocusPipe.Visibility"
+                                                                Value="Visible" />-->
                                         <Setter Target="ContentPresenter.FontWeight"
                                                 Value="SemiBold"/>
                                     </VisualState.Setters>
@@ -531,8 +532,8 @@
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                     <VisualState.Setters>
-                                        <Setter Target="FocusPipe.Visibility"
-                                                                Value="Visible" />
+                                        <!--<Setter Target="FocusPipe.Visibility"
+                                                                Value="Visible" />-->
                                         <Setter Target="ContentPresenter.FontWeight"
                                                 Value="SemiBold"/>
                                     </VisualState.Setters>
@@ -564,10 +565,10 @@
                                                                                     Value="{ThemeResource PivotHeaderItemBackgroundSelectedPressed}" />
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
-                                    <VisualState.Setters>
+                                    <!--<VisualState.Setters>
                                         <Setter Target="FocusPipe.Visibility"
                                                                 Value="Visible" />
-                                    </VisualState.Setters>
+                                    </VisualState.Setters>-->
                                 </VisualState>
                             </VisualStateGroup>
                             <VisualStateGroup x:Name="FocusStates">
@@ -592,7 +593,7 @@
                                                           FontWeight="Normal"
                                                           HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                                           VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
-                                                          Margin="10">
+                                                          Margin="4,14">
                             </ContentPresenter>
                         <Rectangle x:Name="FocusPipe"
                                                    Fill="{ThemeResource PivotHeaderItemFocusPipeFill}"

@@ -27,7 +27,9 @@
         <PivotItem Header="Home">
             <!--Start Designing Your Page Here!-->
                 <Grid>
-                    <TextBlock Text="2"/>
+                    <TextBlock HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Text="Hello Universe!"/>
                 </Grid>
             </PivotItem>
 
