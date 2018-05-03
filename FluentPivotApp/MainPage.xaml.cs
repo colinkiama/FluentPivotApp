@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +23,12 @@ namespace FluentPivotApp
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private string CurrentAppName = Package.Current.DisplayName;
         public MainPage()
         {
             this.InitializeComponent();
+            
         }
+
     }
 }

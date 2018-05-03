@@ -5,9 +5,43 @@
     xmlns:local="using:FluentPivotApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAcrylicWindowMediumHighBrush}"
+    >
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionaries/PivotDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="Transparent">
+    <TextBlock Name="AppNameTitleBarText"
+               Text="{x:Bind CurrentAppName}"
+               Margin="12,8,0,0"
+               FontSize="12"/>
+    <Pivot Style="{ThemeResource FluentPivotStyle}"
+         Margin="0,32,0,0"
+           Name="FluentPivot">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <PivotItem Header="Home">
+            <!--Start Designing Your Page Here!-->
+                <Grid>
+                    <TextBlock Text="2"/>
+                </Grid>
+            </PivotItem>
 
+        <PivotItem Header="Apps">
+            
+        </PivotItem>
+        
+        <PivotItem Header="Games">
+            
+        </PivotItem>
+        <PivotItem Header="Films &#x26; TV">
+            
+        </PivotItem>
+      
+    </Pivot>
     </Grid>
 </Page>
