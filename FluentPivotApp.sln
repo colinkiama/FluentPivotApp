@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentPivotApp", "FluentPivotApp\FluentPivotApp.csproj", "{0B862370-0931-41FC-B497-BA8D51BA17AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|ARM.Build.0 = Debug|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x64.ActiveCfg = Debug|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x64.Build.0 = Debug|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x64.Deploy.0 = Debug|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x86.ActiveCfg = Debug|x86
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x86.Build.0 = Debug|x86
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Debug|x86.Deploy.0 = Debug|x86
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|ARM.ActiveCfg = Release|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|ARM.Build.0 = Release|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|ARM.Deploy.0 = Release|ARM
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x64.ActiveCfg = Release|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x64.Build.0 = Release|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x64.Deploy.0 = Release|x64
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x86.ActiveCfg = Release|x86
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x86.Build.0 = Release|x86
+		{0B862370-0931-41FC-B497-BA8D51BA17AF}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB070F9-D2BB-4872-AC09-8625D14E9AF7}
+	EndGlobalSection
+EndGlobal
